@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
 *{
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: large;
 }
+
+
 
 :root{
     --amarillo: #EAC926;
@@ -13,7 +17,7 @@
 }
 
 header{
-    background-color: #EAC926;
+    background-color: var(--amarillo);
 }
 
 #header-top{
@@ -29,7 +33,7 @@ header{
 }
 
 .barra-busqueda{
-    background-color: #ffffff;
+    background-color: white;
     width: 45%;
     align-self: center;
     display: flex;
@@ -87,15 +91,17 @@ nav{
     background-color: var(--celeste);
 }
 
+.burger-menu:hover i{
+    background-color: #0022AA;
+}
+
 #banner img{
     width: 100vw;
 }
 
-/********************************************
-                  Tablet 
-********************************************/
 
-@media (min-width: 361px){
+
+@media (min-width: 361px){      /* tablet */
 
     #logo{
         width: 30%;
@@ -131,10 +137,7 @@ nav{
     }
 }
 
-/********************************************
-                  Desktop 
-********************************************/
 
-@media (min-width: 769px){
+@media (min-width: 769px){      /* laptop */
    
 }

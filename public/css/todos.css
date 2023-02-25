@@ -3,6 +3,10 @@
     font-size: 12px;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
 :root{
     --amarillo: #EAC926;
     --azul: #03264C;

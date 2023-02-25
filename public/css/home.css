@@ -1,5 +1,5 @@
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 12px;
 }
 
@@ -46,6 +46,7 @@ main{
     border-top: solid 1px var(--gris-claro);
     position: relative;
     padding: 1rem;
+    font-size: 16px;
 }
 
 .descripcion-producto i{
@@ -56,10 +57,10 @@ main{
     height: 30px;
     color: var(--verde);
     border: 1px solid var(--verde);
-    background-color: #FFF;
+    background-color: white;
     border-radius: 50%;
     position: absolute;
-    right: 80px;
+    right: 20px;
     top: -15px;
     transition:
         ease-out transform .5s,
@@ -76,16 +77,21 @@ main{
 }
 
 .precio{
-    font-size: 1.2rem;
+    font-size: 18px;
     padding-right: 0.5rem;
+/*     color: var(--gris-oscuro);
+ */    font-weight: bold;
 }
 
 .descuento{
     color: var(--verde);
+    font-size: 16px;
 }
 
 .nombre-producto{
     display: none;
+    font-weight: bold;
+    color: var(--gris-oscuro);
 }
 
 .producto:hover .nombre-producto{
@@ -109,7 +115,7 @@ main{
     }
 
     .precio{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 }
 

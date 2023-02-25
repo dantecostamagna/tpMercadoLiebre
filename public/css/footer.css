@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+
+
+:root{
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --gris-oscuro: #666666;
+    --gris-claro: #ebebeb;
+    --verde: #39b54a;
+}
+
+
 footer{
     background-color: white;
 }
@@ -6,6 +25,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--gris-oscuro);
 }
 
 .footer-section{
@@ -16,8 +36,8 @@ footer{
 }
 
 .footer-section .fas{
-    font-size: 2rem;
-    color: #03264C;
+    font-size: 2em;
+    color: var(--celeste);
     padding-bottom: 0.625rem;
 }
 
